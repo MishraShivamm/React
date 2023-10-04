@@ -3,22 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <h1>CHao or React| In this lecture we learned about how to create react project via normal npm-npx way and via create vite@latest these two command use to create react app and in vite we can install the dependdencies just by running the command npm i . This vite way is the easiest way .</h1>
   );
 }
 
