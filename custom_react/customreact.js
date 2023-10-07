@@ -11,10 +11,11 @@ function customRender(reactElement,container){
     */
    const domElement = document.createElement(reactElement.type)
    domElement.innnerHTML = reactElement.children
-   for(const prop in props){
-    if(prop == children) continue;
-    domElement.setAttribute
+   for(const prop in reactElement.props){
+    if(prop == 'children') continue;
+    domElement.setAttribute(prop,reactElement.props[prop])
    }
+   container.appendchild(domElement)
 } 
 
 const reactElement= {
