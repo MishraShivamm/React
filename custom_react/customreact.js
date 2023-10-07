@@ -1,7 +1,7 @@
 function customRender(reactElement,container){
     const domElement = document.createElement
     (reactElement.type)
-    domElement.innerHTMl = reactElement.children
+    domElement.innerHTML = reactElement.children
     domElement.setAttirbute('href',reactElement.props.href)
     domElement.setAttirbute('target',reactElement.props.target)
 
